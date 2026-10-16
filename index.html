@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Boussole construit votre site avec vous, choisit la bonne technologie et mesure ce qu'il vous apporte. Un seul interlocuteur, un budget connu d'avance.">
+  <title>Boussole — Agence web pour commerçants et indépendants</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<header class="nav-wrap" id="top">
+  <nav class="nav container" aria-label="Navigation principale">
+    <a href="#top" class="logo" aria-label="Boussole – retour en haut">
+      <svg class="logo__icon" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="20" cy="20" r="20" fill="#1A1A1A"/>
+        <circle cx="20" cy="20" r="17"   fill="#fff"/>
+        <circle cx="20" cy="20" r="13.5" fill="#FFD93D"/>
+        <circle cx="20" cy="20" r="6"    fill="#fff"/>
+        <polygon points="20,7.5 21.5,20 18.5,20" fill="#1A1A1A"/>
+        <polygon points="20,32.5 21.5,20 18.5,20" fill="#9A8B74"/>
+      </svg>
+      <span class="logo__name">Boussole</span>
+    </a>
+
+    <button class="nav__burger" id="navBurger"
+            aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav__links" id="navMenu" role="list">
+      <li><a href="#">Offre</a></li>
+      <li><a href="#">WordPress ou sur mesure</a></li>
+      <li><a href="#">Projets</a></li>
+      <li><a href="#">À propos</a></li>
+    </ul>
+
+    <a href="#" class="btn btn--dark nav__cta">Réserver un appel</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero__inner container">
+
+    <div class="hero__content">
+      <p class="eyebrow">Agence web pour commerçants et indépendants</p>
+      <h1 id="hero-title" class="hero__h1">Votre site, dans&nbsp;la bonne direction.</h1>
+      <p class="hero__sub">
+        Boussole choisit avec vous la bonne technologie, construit votre site,
+        puis mesure ce qu'il vous apporte. Un seul interlocuteur, des explications
+        claires, un budget connu d'avance.
+      </p>
+      <div class="hero__ctas">
+        <a href="#" class="btn btn--dark">Réserver un appel découverte</a>
+        <a href="#" class="btn btn--outline">Voir nos projets</a>
+      </div>
+      <p class="hero__note">Appel de 20 minutes · gratuit · sans engagement</p>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <svg class="compass" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="200" r="200" fill="#1A1A1A"/>
+        <circle cx="200" cy="200" r="168" fill="#fff"/>
+        <circle cx="200" cy="200" r="138" fill="#FFD93D"/>
+        <circle cx="200" cy="200" r="60"  fill="#fff"/>
+        <polygon points="200,70 211,200 189,200" fill="#1A1A1A"/>
+        <polygon points="200,330 211,200 189,200" fill="#9A8B74"/>
+      </svg>
+    </div>
+
+  </div>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
